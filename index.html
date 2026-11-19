@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#123b37">
+    <title>Khám phá Việt Nam - Trang chủ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <a class="skip-link" href="#main-content">Bỏ qua điều hướng</a>
+    <header class="site-header">
+        <a class="site-brand" href="index.html">Khám phá Việt Nam</a>
+        <nav class="site-nav" aria-label="Menu chính">
+            <a href="index.html" aria-current="page">Trang chủ</a>
+            <a href="hanoi.html" >Hà Nội</a>
+            <a href="danang.html" >Đà Nẵng</a>
+            <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a>
+        </nav>
+    </header>
+
+    <main class="page-shell home-page" id="main-content">
+        <nav class="region-nav" aria-label="Đi đến vùng miền">
+            <span class="region-nav-label">Khám phá theo vùng</span>
+            <div class="region-nav-links">
+                <a href="#mien-bac">Miền Bắc</a>
+                <a href="#mien-trung">Miền Trung</a>
+                <a href="#mien-nam">Miền Nam</a>
+            </div>
+        </nav>
+
+        <div class="home-grid">
+            <section class="content-panel">
+                <p class="section-kicker">Gợi ý hành trình</p>
+                <h1>Các địa điểm du lịch nổi tiếng</h1>
+                <ul class="place-grid">
+                    <li><a href="hanoi.html">Hà Nội</a></li>
+                    <li><a href="danang.html">Đà Nẵng</a></li>
+                    <li>Hạ Long</li>
+                    <li>Hội An</li>
+                    <li>Đà Lạt</li>
+                </ul>
+            </section>
+
+            <section class="content-panel">
+                <p class="section-kicker">Lên kế hoạch</p>
+                <h2>Top 5 địa điểm bạn muốn đến</h2>
+                <ol class="ranked-grid">
+                    <li><a href="hanoi.html">Hà Nội</a></li>
+                    <li><a href="danang.html">Đà Nẵng</a></li>
+                    <li>Hội An</li>
+                    <li>Hạ Long</li>
+                    <li>Đà Lạt</li>
+                </ol>
+            </section>
+
+            <section class="content-panel wide-panel">
+                <p class="section-kicker">Chọn miền khám phá</p>
+                <h2>Danh sách địa điểm theo vùng miền</h2>
+                <ul class="region-grid">
+                    <li class="region-card" id="mien-bac">
+                        <h3>Miền Bắc</h3>
+                        <ul>
+                            <li>Hà Nội</li>
+                            <li>Hạ Long</li>
+                            <li>Sa Pa</li>
+                        </ul>
+                    </li>
+                    <li class="region-card" id="mien-trung">
+                        <h3>Miền Trung</h3>
+                        <ul>
+                            <li>Đà Nẵng</li>
+                            <li>Hội An</li>
+                            <li>Huế</li>
+                        </ul>
+                    </li>
+                    <li class="region-card" id="mien-nam">
+                        <h3>Miền Nam</h3>
+                        <ul>
+                            <li>TP. Hồ Chí Minh</li>
+                            <li>Vũng Tàu</li>
+                            <li>Phú Quốc</li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="content-panel wide-panel">
+                <p class="section-kicker">Cảnh đẹp Việt Nam</p>
+                <h2>Hình ảnh các địa danh</h2>
+                <div class="destination-grid">
+                    <figure class="destination-card">
+                        <a href="hanoi.html"><img src="images/hanoi.webp" alt="Hồ Hoàn Kiếm ở Hà Nội" loading="lazy"></a>
+                        <figcaption>Ảnh: Vyacheslav Argenberg, giấy phép <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Hanoi,_Vietnam,_Hoan_Kiem_Lake.jpg">nguồn ảnh</a>.</figcaption>
+                    </figure>
+                    <figure class="destination-card">
+                        <img src="images/danang.jpg" alt="Cầu Rồng bắc qua sông Hàn ở Đà Nẵng" loading="lazy">
+                        <figcaption>Ảnh: Thangphan, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Da_nang_dragon_bridge.jpg">nguồn ảnh</a>.</figcaption>
+                    </figure>
+                    <figure class="destination-card">
+                        <img src="images/halong.jpg" alt="Các đảo đá trên vịnh Hạ Long" loading="lazy">
+                        <figcaption>Ảnh: Mustang Joe, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, <a href="https://commons.wikimedia.org/wiki/File:H%E1%BA%A1_Long_Bay,_Vietnam_1.jpg">nguồn ảnh</a>.</figcaption>
+                    </figure>
+                    <figure class="destination-card">
+                        <img src="images/hoian.jpg" alt="Thuyền trên sông Hoài ở phố cổ Hội An" loading="lazy">
+                        <figcaption>Ảnh: Andre Hospers, giấy phép <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, <a href="https://commons.wikimedia.org/wiki/File:Hoi_An_Ancient_town.jpg">nguồn ảnh</a>.</figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section class="content-panel wide-panel">
+                <p class="section-kicker">Lưu lại khoảnh khắc</p>
+                <h2>Thư viện hình ảnh</h2>
+                <p class="section-intro">Chọn ảnh để mở ảnh gốc trong một tab mới.</p>
+                <div class="thumbnail-grid">
+                    <a href="images/hanoi.webp" target="_blank" rel="noopener noreferrer"><img src="images/hanoi.webp" alt="Mở ảnh gốc Hồ Hoàn Kiếm ở Hà Nội" loading="lazy"></a>
+                    <a href="images/danang.jpg" target="_blank" rel="noopener noreferrer"><img src="images/danang.jpg" alt="Mở ảnh gốc Cầu Rồng ở Đà Nẵng" loading="lazy"></a>
+                    <a href="images/halong.jpg" target="_blank" rel="noopener noreferrer"><img src="images/halong.jpg" alt="Mở ảnh gốc vịnh Hạ Long" loading="lazy"></a>
+                    <a href="images/hoian.jpg" target="_blank" rel="noopener noreferrer"><img src="images/hoian.jpg" alt="Mở ảnh gốc phố cổ Hội An" loading="lazy"></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="site-footer"><p>Khám phá Việt Nam · Cẩm nang điểm đến</p></footer>
+</body>
+</html>
